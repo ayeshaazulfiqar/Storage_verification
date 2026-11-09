@@ -1,0 +1,4 @@
+run,policy,episodes,failed,silent_per_order,escalated_per_order,wrong_or_lied_decisions
+gemma final,trust,20,0,"0.630 [0.587, 0.670]","0.000 [0.000, 0.000]",149
+gemma final,per_step,20,0,"0.257 [0.220, 0.295]","0.143 [0.110, 0.175]",144
+gemma final,per_step+recompute,20,0,"0.000 [0.000, 0.000]","0.465 [0.415, 0.520]",143

@@ -1,0 +1,4 @@
+task,model,policy,episodes,failed,decisions,wrong,esc_rule_per_order,esc_fault_per_order,esc_both_per_order,silent_model_per_order,silent_storage_per_order
+B,Gemma,trust,50,0,1779,276,0.0,0.0,0.0,0.142,0.387
+B,Gemma,per_step,50,0,1798,278,0.0,0.102,0.016,0.214,0.0
+B,Gemma,per_step+recompute,50,0,1760,270,0.252,0.097,0.018,0.0,0.0

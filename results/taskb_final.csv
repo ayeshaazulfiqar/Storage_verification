@@ -1,0 +1,4 @@
+model,policy,episodes,failed,decisions,wrong,error_rate,error_ci,silent_per_order,escalated_per_order,silent_model_per_order,silent_storage_per_order
+gemma,trust,50,0,1779,276,0.1551,"[0.1386, 0.1728]","0.529 [0.503, 0.556]","0.000 [0.000, 0.000]",0.142,0.387
+gemma,per_step,50,0,1798,278,0.1546,"[0.1382, 0.1722]","0.214 [0.187, 0.242]","0.118 [0.101, 0.134]",0.214,0.0
+gemma,per_step+recompute,50,0,1760,270,0.1534,"[0.1369, 0.1711]","0.000 [0.000, 0.000]","0.367 [0.335, 0.401]",0.0,0.0

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebooks and checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Secrets: never commit keys
+.env
+*.key
+secrets*
+
+# Large raw logs (keep locally)
+results/*.jsonl
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/

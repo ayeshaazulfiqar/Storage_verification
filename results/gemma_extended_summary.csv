@@ -1,0 +1,4 @@
+policy,episodes,failed,decisions,wrong,error_rate,error_ci,silent_per_order,escalated_per_order,esc_rule_per_order,esc_fault_per_order,esc_both_per_order,silent_model_per_order,silent_storage_per_order
+trust,50,0,1899,365,0.1922,"[0.1747, 0.2107]","0.660 [0.631, 0.690]","0.000 [0.000, 0.000]",0.0,0.0,0.0,0.188,0.472
+per_step,50,0,1892,351,0.1855,"[0.1682, 0.2038]","0.267 [0.239, 0.294]","0.145 [0.122, 0.167]",0.0,0.119,0.026,0.267,0.0
+per_step+recompute,50,0,1824,350,0.1919,"[0.1740, 0.2107]","0.000 [0.000, 0.000]","0.468 [0.438, 0.500]",0.325,0.118,0.025,0.0,0.0

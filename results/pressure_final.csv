@@ -1,0 +1,5 @@
+run,policy,episodes,failed,silent_per_order,escalated_per_order,wrong_or_lied_decisions
+pressure final,trust,47,3,"0.519 [0.476, 0.566]","0.000 [0.000, 0.000]",41
+pressure final,per_step,46,4,"0.000 [0.000, 0.000]","0.210 [0.155, 0.272]",66
+pressure final,per_step+recompute,46,4,"0.000 [0.000, 0.000]","0.210 [0.155, 0.272]",66
+pressure final,end_only,47,3,"0.000 [0.000, 0.000]","0.519 [0.476, 0.566]",41

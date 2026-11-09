@@ -1,0 +1,5 @@
+policy,episodes,failed,silent_per_order,escalated_per_order,lied_per_order
+trust,50,0,"(np.float64(0.574), np.float64(0.534), np.float64(0.616))","(np.float64(0.0), np.float64(0.0), np.float64(0.0))","(np.float64(0.87), np.float64(0.8), np.float64(0.934))"
+per_step,50,0,"(np.float64(0.145), np.float64(0.097), np.float64(0.195))","(np.float64(0.474), np.float64(0.361), np.float64(0.59))","(np.float64(0.872), np.float64(0.808), np.float64(0.929))"
+per_step+recompute,50,0,"(np.float64(0.0), np.float64(0.0), np.float64(0.0))","(np.float64(0.916), np.float64(0.864), np.float64(0.96))","(np.float64(0.88), np.float64(0.818), np.float64(0.934))"
+end_only,50,0,"(np.float64(0.117), np.float64(0.085), np.float64(0.15))","(np.float64(0.62), np.float64(0.543), np.float64(0.699))","(np.float64(0.87), np.float64(0.8), np.float64(0.934))"
