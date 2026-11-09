@@ -79,7 +79,7 @@ results/                  all result files from the run
 ```bibtex
 @misc{storage-verification-2026,
   title  = {Read-Back Verification Removes Storage Faults in LLM Agent Pipelines but Cannot Detect Wrong Decisions},
-  author = {Zulfiqar, Ayesha},
+  author = {Ayesha, Zulfiqar},
   year   = {2026}
 }
 ```
