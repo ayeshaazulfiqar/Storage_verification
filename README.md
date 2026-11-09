@@ -1,9 +1,9 @@
 # Read-Back Verification in LLM Agent Pipelines
 
-**Read-back checks remove storage faults. They cannot see a wrong decision that is stored faithfully. A deterministic re-check of the rule removes those too.**
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 
-![license](https://img.shields.io/badge/license-MIT-green)
-![python](https://img.shields.io/badge/python-3.10%2B-blue)
+Read-back checks remove storage faults. They cannot see a wrong decision that is stored faithfully. A deterministic re-check of the rule removes those too.
 
 ---
 
@@ -44,7 +44,7 @@ DeepSeek's rule-B pilot made 405 decisions with no wrong decisions. Its final ru
 ```bash
 pip install -r requirements.txt
 python storage_verification.py --stub     # offline storage-fault check
-python adversarial_worker.py --validate   # must print ok for all rows
+python adversarial_worker.py --validate   # must print ok for every row
 python adversarial_worker.py              # scripted-lie grid, no API calls
 python plot_results.py                    # storage-fault figure
 python plot_recompute.py                  # re-check figure
@@ -70,7 +70,7 @@ results/                  all result files from the run
 
 - Two models, two rules, one pipeline. Results may not generalise to other tasks.
 - The lying adversaries are scripted, or instructed for the stress test. Real models lie far less often.
-- Gemma's answers vary between runs. These figures are from one run.
+- Gemma's answers vary between runs. These figures come from one run.
 - DeepSeek's rule-B result is an upper bound from zero observed errors, not a measured rate.
 - The re-check's false-alarm rate against ground truth is zero by construction, because the rule is the ground truth. Tasks with no codable rule would need labelled outcomes.
 
@@ -79,11 +79,11 @@ results/                  all result files from the run
 ```bibtex
 @misc{storage-verification-2026,
   title  = {Read-Back Verification Removes Storage Faults in LLM Agent Pipelines but Cannot Detect Wrong Decisions},
-  author = {Azulfiqar, Ayesha},
+  author = {Zulfiqar, Ayesha},
   year   = {2026}
 }
 ```
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Released under the [MIT License](LICENSE).
